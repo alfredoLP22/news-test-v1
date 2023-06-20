@@ -15,3 +15,6 @@ use App\Http\Controllers\NewsController;
 
 Route::get('/', [NewsController::class, 'News'])
 ->name('AllNews');
+
+Route::get('/top-news',[NewsController::class, 'TopHeadlines' ])
+->name('Top');
