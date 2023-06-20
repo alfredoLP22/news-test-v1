@@ -21,7 +21,9 @@ Sigue estos pasos para instalar el proyecto:
 
 2. Correr comando composer install
 3. Correr comando npm install
-4. Correr comando 
+3. Cambair .env.example a .env y ajustar variables de base de datos y api key de news api
+5. Correr comando php artisan migrate
+6. Correr comando 
     php artisan serve para iniciar eñ servidor
-5. Correr comando
+7. Correr comando
     npm run dev para iniciar vite 
